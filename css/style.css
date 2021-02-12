@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Common */
+main {
+    background-color: blue;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+ .margin {
+     margin-top: 20px;
+ }
+
+ /* Header */
+.pink {
+    height: 150px;
+    background-color: palevioletred;
+}
+
+.yellow {
+    height: 250px;
+    background-color: yellow;
+}
+
+/* Main */
+.first-row {
+    height: 50px;
+    background-color: lightblue;
+}
+
+.col {
+    float: left;
+}
+
+.col-left, .col-right {
+    height: 400px;
+    width: 20%;
+    background-color: lightblue;
+    margin: 1% 0;
+}
+
+.col-middle {
+    height: 400px;
+    width: 58%;
+    background-color: lightblue;
+    margin: 1% 1%;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Footer */
+footer {
+    height: 50px;
+    background-color: purple;
+    margin-bottom: 20px;
+}
